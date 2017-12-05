@@ -1,7 +1,7 @@
 # Collaborative newsletter
 
 
-This project is a complete solution to create a collaborative newsletter and a dynamically generated RSS
+This project is a complete solution to create a collaborative newsletter
 
 
 
@@ -14,11 +14,8 @@ This project is a complete solution to create a collaborative newsletter and a d
 
 # Tech
 
-## Frontend
-* [AngularJS] - HTML enhanced for web apps!
 
-
-## Backend
+### Backend
 * [node.js] - evented I/O for the backend
 * [Express] - fast node.js network app framework
 * [MongoDB] - MongoDB stores data in flexible, JSON-like documents, meaning fields can vary from document to document and data structure can be changed over time.
@@ -89,6 +86,5 @@ MIT
 
    [node.js]: <http://nodejs.org>
    [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
    [MongoDB]: <https://www.mongodb.com>
 
