@@ -1,5 +1,10 @@
 /**
- * Created by dvicente@solidgear.es on 23/06/2016
+ * @license
+ * Solid GEAR Projects S.L.
+ * http://solidgeargroup.com
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://opensource.org/licenses/MIT
  */
 
 var assert = require('chai').assert;

@@ -1,6 +1,12 @@
 /**
- * Created by dvicente@solidgear.es on 17/08/2017
+ * @license
+ * Solid GEAR Projects S.L.
+ * http://solidgeargroup.com
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://opensource.org/licenses/MIT
  */
+
 var utils = require('../../tools/utils');
 var logger = require('../../tools/logger');
 var permsRoles = require('../../tools/permissions');
