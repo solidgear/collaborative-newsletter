@@ -15,7 +15,7 @@ This project is a complete solution to create a collaborative newsletter and a d
 # Tech
 
 ## Frontend
-* [AngularJS] - HTML enhanced for web apps!
+* [Angular] - HTML enhanced for web apps!
 
 
 ## Backend
@@ -82,13 +82,14 @@ $ mocha
 License
 ----
 
-MIT
+[MIT](http://opensource.org/licenses/MIT)
+Copyright (c) 2017-present, Solid GEAR Projects S.L.
 
 
 
 
    [node.js]: <http://nodejs.org>
    [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
+   [Angular]: <https://angular.io/>
    [MongoDB]: <https://www.mongodb.com>
 
