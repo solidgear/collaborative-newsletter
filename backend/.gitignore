@@ -1,0 +1,10 @@
+# Logs
+*.log
+npm-debug.log*
+
+node_modules/
+lib/certificates_vg/
+coverage/
+uploads/
+.vscode/
+config.json

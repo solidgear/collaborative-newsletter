@@ -1,0 +1,4 @@
+[
+    {"username": "user_1", "name": "user 1", "password": "userpassword1", "twitterUsername": "twitterUsername1", "email": "user1@mydomain.com", "role": "USER"},
+    {"username": "user_2", "name": "user 2", "password": "userpassword2", "twitterUsername": "twitterUsername2", "email": "user2@mydomain.com", "role": "USER"}
+]
