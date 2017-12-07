@@ -87,6 +87,20 @@ Before launching the server, copy config_sample.json file into config.json file,
 $ node server.js
 ```
 
+## Docker
+
+If you want to launch a demo fo this project you can use docker or docker-compose to test it.
+
+From project root folder, execute:
+
+```sh
+docker-compose up -dt
+```
+
+It takes arround 5 minutes to be ready. Then you can open this url http://localhost:8080 and you will get the login page, where you can enter:
+
+* user: owner  password: ownerpassword1
+* user: user_1 password: userpassword1
 
 ### Development
 
@@ -100,7 +114,6 @@ Create a Pull Request and send it. We will review it as soon as we can
 ```sh
 $ mocha
 ```
-
 
 License
 ----
