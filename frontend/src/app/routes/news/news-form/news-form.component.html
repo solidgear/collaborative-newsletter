@@ -1,0 +1,46 @@
+<div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <span *ngIf="newItem()">
+              {{ 'news.form.ADD_TITLE' | translate }}
+      </span>
+      <span *ngIf="!newItem()">
+              {{ 'news.form.EDIT_TITLE' | translate }}
+      </span>
+    </div>
+      <form (ngSubmit)="submitForm(newsForm)" [formGroup]="newsForm">
+        <div class="panel-body">
+          <div class="form-group col-md-12">
+              <label>{{ 'news.form.TITLE' | translate }}</label>
+              <input class="form-control" id="title" type="text" placeholder="{{ 'news.form.TITLE_PLACEHOLDER' | translate }}"
+                     name="title" formControlName="title"/>
+          </div>
+          <div class="form-group col-md-12">
+              <label>{{ 'news.form.DESCRIPTION' | translate }}</label>
+              <input class="form-control" id="description" type="text" placeholder="{{ 'news.form.DESCRIPTION_PLACEHOLDER' | translate }}"
+                     name="description" formControlName="description"/>
+          </div>
+          <div class="form-group col-md-12">
+              <label>{{ 'news.form.LINK' | translate }}</label>
+              <input class="form-control" id="link" type="text" placeholder="{{ 'news.form.LINK_PLACEHOLDER' | translate }}"
+                     name="link" formControlName="link"/>
+          </div>
+          <div class="form-group col-md-12">
+              <label>{{ 'news.form.IMAGE' | translate }}</label>
+            </div>
+            <div class="col-md-7">
+              <input class="form-control" id="image" type="text" placeholder="{{ 'news.form.IMAGE_PLACEHOLDER' | translate }}."
+                     name="image" formControlName="image" #image/>
+            </div>
+            <div class="col-md-5">
+              <img id="previewImage" [src]="getImage()" width="300px" height="300px"/>
+            </div>
+          </div>
+        <div class="panel-footer">
+          <button class="btn btn-default" routerLink="/news">{{ 'common.forms.CANCEL_BUTTON' | translate }}</button>
+          <button *ngIf="newItem()" [disabled]="!newsForm.valid" class="btn btn-primary" type="submit">{{ 'common.forms.ADD_BUTTON' | translate }}</button>
+          <button *ngIf="!newItem()" [disabled]="!newsForm.valid" class="btn btn-primary" type="submit">{{ 'common.forms.EDIT_BUTTON' | translate }}</button>
+        </div>
+      </form>
+  </div>
+</div>

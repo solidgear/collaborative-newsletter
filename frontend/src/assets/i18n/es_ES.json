@@ -1,0 +1,111 @@
+{
+    "home": {
+      "TITLE": "SG NEWS - Administración de noticias",
+      "BODY": "Bienvenido a este portal de administración desde el que podrás, entre otras cosas, administrar tus noticias.",
+      "RSS": "Puedes descargarte el feed de noticias de la siguiente URL"
+    },
+    "common": {
+      "LOGIN_MESSAGE": "SG Noticias RSS Admin",
+      "UNAUTHORIZED": "No autorizado",
+      "PASSWORD": "Contraseña",
+      "REPASSWORD": "Repita Contraseña",
+      "USERNAME": "Usuario",
+      "CODE": "Código",
+      "EMAIL": "Correo electrónico",
+      "USER_NOT_FOUND": "Usuario no encontrado",
+      "CHANGEPASSWORD_ERROR": "Error cambiando el password",
+      "FILTER": "Busca con filtros",
+      "ALL": "Cualquier",
+      "JANUARY": "Enero",
+      "FEBRUARY": "Febrero",
+      "MARCH": "Marzo",
+      "APRIL": "Abril",
+      "MAY": "Mayo",
+      "JUNE": "Junio",
+      "JULY": "Julio",
+      "AUGUST": "Agosto",
+      "SEPTEMBER": "Septiembre",
+      "OCTOBER": "Octubre",
+      "NOVEMBER": "Noviembe",
+      "DECEMBER": "Diciembre",
+      "CLIENT": "Cliente",
+      "STATUS": "Estado",
+      "MONTH": "Mes",
+      "YEAR": "Año",
+      "USER": "Usuario",
+      "ERROR_REQUIRED": "Este campo es obligatorio",
+      "forms": {
+        "ADD_BUTTON": "Crear",
+        "CANCEL_BUTTON": "Cancelar",
+        "REMOVE_BUTTON": "Borrar",
+        "EDIT_BUTTON": "Editar",
+        "SAVE_BUTTON": "Guardar",
+        "OPTIONAL": "* Opcional"
+      }
+    },
+    "news": {
+      "TITLE": "NOTICIAS",
+      "ADD_BUTTON": "Nueva noticia",
+      "OPEN_LINK": "Abrir enlace",
+      "form": {
+        "ADD_TITLE": "Crear nueva noticia",
+        "EDIT_TITLE": "Modificar noticia",
+        "TITLE": "Título",
+        "TITLE_PLACEHOLDER": "Introduzca título...",
+        "DESCRIPTION": "Descripción",
+        "DESCRIPTION_PLACEHOLDER": "Introduzca descripción...",
+        "SOURCE": "Fuente",
+        "SOURCE_PLACEHOLDER": "Introduzca fuente...",
+        "LINK": "Enlace",
+        "LINK_PLACEHOLDER": "Introduzca enlace...",
+        "IMAGE": "Imagen",
+        "IMAGE_PLACEHOLDER": "Introduzca imagen...",
+        "DATE": "Fecha de publicación"
+      },
+      "remove": {
+        "TITLE": "¿Quieres borrar la noticia?",
+        "CONTENT": "La siguiente noticia se borrará y no podrás recuperarla:"
+      },
+      "PUBLISHED": "Publicada",
+      "PUBLICATION": "Publicación"
+    },
+    "users": {
+      "form": {
+        "RESET_PASSWORD": "Cambiar contraseña",
+        "OLD_PASSWORD": "Constraseña antigua",
+        "OLD_PASSWORD_PLACEHOLDER": "Introduzca su antigua contraseña...",
+        "NEW_PASSWORD": "Nueva contraseña",
+        "NEW_PASSWORD_PLACEHOLDER": "Introduzca su nueva contraseña...",
+        "PASSWORD_PLACEHOLDER": "Introduzca su nueva contraseña otra vez...",
+        "CONFIRM_PASSWORD": "Confirmar contraseña",
+        "SUCCESS_TOAST": "Contraseña modificada!",
+        "PASSWORD_NOT_EQUAL": "Las confirmación de contraseña es diferente de la nueva contraseña"
+      }
+    },
+    "header": {
+        "search": {
+            "PLACEHOLDER": "Escribe y presiona enter.."
+        }
+    },
+    "offsidebar": {
+        "setting": {
+            "SETTINGS": "Configuración"
+        }
+    },
+    "sidebar": {
+        "WELCOME": "Bienvenido",
+        "heading": {
+            "HEADER": "Cabecera Menu"
+        },
+        "nav": {
+            "SINGLEVIEW": "Vista Simple"
+        }
+    },
+    "topbar": {
+      "RESET_PASSWORD": "Cambiar contraseña",
+      "LOGOUT": "Cerrar sesión"
+    },
+    "dashboard": {
+        "WELCOME": "Bienvenido"
+    }
+}

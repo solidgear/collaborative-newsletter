@@ -1,0 +1,56 @@
+.card-container {
+  animation-name: example;
+  animation-duration: 1s;
+  .img-container {
+    min-height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    img {
+      width: 100%;
+    }
+    em {
+      padding: 10px;
+      margin-top: 5px;
+      background-color:rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+      color: #666;
+    }
+    em:hover {
+      background-color:rgba(255, 255, 255, 0.8);
+      font-size: 3em;
+    }
+    .fa {
+      cursor: pointer;
+      &.fa-red:hover {
+        color: red;
+      }
+      &.fa-orange:hover {
+        color: orange;
+      }
+    }
+    .fa-pencil {
+      margin-right: 10px;
+    }
+  }
+  .open-link-container {
+    float:left;
+  }
+  .published {
+    color: green;
+    em {
+      color: green;
+    }
+  }
+  .not-published {
+    color:orange;
+    em {
+      color: orange;
+    }
+  }
+}
+
+@keyframes example {
+  0%   {transform: rotateY(180deg);}
+  100% {transform: rotateY(360deg);}
+}

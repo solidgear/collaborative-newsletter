@@ -1,0 +1,26 @@
+<div class="wrapper login-bg">
+  <div class="block-center mt-xl wd-xl">
+    <img class="block-center login-img" src="assets/img/logo-login.png" alt="Image" width="212" height="171"/>
+    <div class="panel panel-dark panel-flat">
+      <div class="panel-body">
+        <p class="text-center pv">{{ 'common.LOGIN_MESSAGE' | translate }}</p>
+        <form [formGroup]="valForm" class="form-validate mb-lg" role="form" name="loginForm" novalidate="" (submit)="submitForm($event, valForm.value)">
+          <div class="form-group has-feedback">
+            <input class="form-control" id="inputUsername" type="text" name="username" placeholder="{{ 'common.USERNAME' | translate }}" autocomplete="off" formControlName="username" required="" />
+            <span class="fa fa-user form-control-feedback text-muted"></span>
+            <span class="text-danger" *ngIf="valForm.controls['username'].hasError('required') && (valForm.controls['username'].dirty || valForm.controls['username'].touched)">{{ 'common.ERROR_REQUIRED' | translate }}</span>
+          </div>
+          <div class="form-group has-feedback">
+            <input class="form-control" id="inputPassword" type="password" name="password" placeholder="{{ 'common.PASSWORD' | translate }}" formControlName="password" required="" />
+            <span class="fa fa-lock form-control-feedback text-muted"></span>
+            <span class="text-danger" *ngIf="valForm.controls['password'].hasError('required') && (valForm.controls['password'].dirty || valForm.controls['password'].touched)">{{ 'common.ERROR_REQUIRED' | translate }}</span>
+          </div>
+          <div class="pull-right"><a class="text-muted" [routerLink]="'/login/reset'">Forgot your password?</a></div>
+          <br>
+          <button class="btn btn-block btn-primary mt-lg " type="submit">Login</button>
+        </form>
+        <div *ngIf="showError" class="text-danger text-center" > {{ 'common.UNAUTHORIZED' | translate }} </div>
+      </div>
+    </div>
+  </div>
+</div>

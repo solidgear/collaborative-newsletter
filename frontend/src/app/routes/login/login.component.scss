@@ -1,0 +1,9 @@
+@import '../../shared/styles/app/variables.scss';
+.wrapper {
+  background-color: $brand-secondary;
+  .login-img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,111 @@
+{
+    "home": {
+      "TITLE": "SG NEWS - Newsletter Admin Page",
+      "BODY": "Welcome to the admin portal that will allow you to handle your news",
+      "RSS": "The url to download the rss feed is"
+    },
+    "common": {
+      "LOGIN_MESSAGE": "SG Newsletter RSS Admin",
+      "UNAUTHORIZED": "Unauthorized",
+      "PASSWORD": "Password",
+      "REPASSWORD": "Repeat Password",
+      "USERNAME": "Username",
+      "CODE": "Code",
+      "EMAIL": "Email",
+      "USER_NOT_FOUND": "User not found",
+      "CHANGEPASSWORD_ERROR": "Error changing password",
+      "FILTER": "Search with filters",
+      "ALL": "Any",
+      "JANUARY": "January",
+      "FEBRUARY": "February",
+      "MARCH": "March",
+      "APRIL": "April",
+      "MAY": "May",
+      "JUNE": "June",
+      "JULY": "July",
+      "AUGUST": "August",
+      "SEPTEMBER": "September",
+      "OCTOBER": "October",
+      "NOVEMBER": "November",
+      "DECEMBER": "December",
+      "CLIENT": "Client",
+      "STATUS": "Status",
+      "MONTH": "Month",
+      "YEAR": "Year",
+      "USER": "User",
+      "ERROR_REQUIRED": "This field is mandatory",
+      "forms": {
+        "ADD_BUTTON": "Add",
+        "CANCEL_BUTTON": "Cancel",
+        "REMOVE_BUTTON": "Remove",
+        "EDIT_BUTTON": "Edit",
+        "SAVE_BUTTON": "Save",
+        "OPTIONAL": "* Optional"
+      }
+      },
+    "news": {
+      "TITLE": "NEWS",
+      "ADD_BUTTON": "Add piece of news",
+      "OPEN_LINK": "Open link",
+      "form": {
+        "ADD_TITLE": "Create piece of news",
+        "EDIT_TITLE": "Modify piece of news",
+        "TITLE": "Title",
+        "TITLE_PLACEHOLDER": "Insert title..",
+        "DESCRIPTION": "Description",
+        "DESCRIPTION_PLACEHOLDER": "Insert description...",
+        "SOURCE": "Source",
+        "SOURCE_PLACEHOLDER": "Insert source...",
+        "LINK": "Link",
+        "LINK_PLACEHOLDER": "Insert link...",
+        "IMAGE": "Image",
+        "IMAGE_PLACEHOLDER": "Insert image...",
+        "DATE": "Publishing date"
+      },
+      "remove": {
+        "TITLE": "Do you want to remove this piece of news?",
+        "CONTENT": "This piece of news would be removed and you want be able to recover it:"
+      },
+      "PUBLISHED": "Published",
+      "PUBLICATION": "Publication"
+    },
+    "users": {
+      "form": {
+        "RESET_PASSWORD": "Reset password",
+        "OLD_PASSWORD": "Old Password",
+        "OLD_PASSWORD_PLACEHOLDER": "Insert your old password...",
+        "NEW_PASSWORD": "New Password",
+        "NEW_PASSWORD_PLACEHOLDER": "Insert your new password...",
+        "PASSWORD_PLACEHOLDER": "Insert your new password again...",
+        "CONFIRM_PASSWORD": "Confirm password",
+        "SUCCESS_TOAST": "Password modified!",
+        "PASSWORD_NOT_EQUAL": "Password confirmation mismatch"
+      }
+    },
+    "header": {
+        "search": {
+            "PLACEHOLDER": "Type and hit enter.."
+        }
+    },
+    "offsidebar": {
+        "setting": {
+            "SETTINGS": "Settings"
+        }
+    },
+    "sidebar": {
+        "WELCOME": "Welcome",
+        "heading": {
+            "HEADER": "Menu Heading"
+        },
+        "nav": {
+            "SINGLEVIEW": "Single View"
+        }
+    },
+    "topbar": {
+        "RESET_PASSWORD": "Reset Password",
+        "LOGOUT": "Log Out"
+    },
+    "dashboard": {
+        "WELCOME": "Welcome"
+    }
+}

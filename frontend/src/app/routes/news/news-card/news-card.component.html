@@ -1,0 +1,23 @@
+<div class="panel card-container">
+  <div class="col-xs-12 img-container" [ngStyle]="{'background-image': 'url(' + data?.image + ')'}">
+    <div class="text-right text-muted">
+        <em (click)="editClicked()" class="fa fa-pencil fa-orange fa-2x"></em>
+        <em (click)="removeClicked()" class="fa fa-trash fa-red fa-2x"></em>
+    </div>
+  </div>
+  <div class="panel-body">
+    <div class="col-xs-12">
+      <h3>{{data?.title}}</h3>
+      <p>{{data?.description}}</p>
+      <div class="open-link-container">
+        <a [href]="data?.link"> {{ 'news.OPEN_LINK' | translate }}</a>
+      </div>
+      <div class="text-right">
+        <span class="published">
+          <em class="fa fa-check"></em>
+          {{ 'news.PUBLISHED' | translate }}
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
