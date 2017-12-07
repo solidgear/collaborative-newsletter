@@ -19,8 +19,8 @@ RUN apt-get install -y nginx bash git ssh rsync pwgen netcat-openbsd python make
 RUN npm install -g gulp pm2 @angular/cli  
 
 # Configure nginx
-ADD config/nginx.conf /etc/nginx/nginx.conf
-ADD config/default.conf /etc/nginx/conf.d/default.conf
+ADD docker/config/nginx.conf /etc/nginx/nginx.conf
+ADD docker/config/default.conf /etc/nginx/conf.d/default.conf
 RUN mkdir -p /var/log/nginx
 
 #COPY COPY
@@ -31,7 +31,7 @@ ADD ./frontend /var/www/html/
 RUN rm -rf /var/cache/apk/*
 
 # root filesystem (S6 config files)
-ADD ./rootfs /
+ADD ./docker/rootfs /
 
 EXPOSE 3500 80 
 

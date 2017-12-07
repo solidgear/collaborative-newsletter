@@ -1,8 +1,0 @@
-#!/usr/bin/with-contenv bash
-DIRECTORY="/opt/nodeapp"
-if [ -z "$APP" ]; then
-    if [ -f "$DIRECTORY/server.js" ]; then
-		export APP="$DIRECTORY/server.js"
-                pm2 start -x $APP --name "backend" --max-memory-restart 200M --no-daemon
-	fi       
-fi
