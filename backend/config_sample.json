@@ -1,6 +1,6 @@
 {
     "db_config": {
-        "host": "mongodb",
+        "host": "localhost",
         "port": "27017",
         "db": "Newsletter",
         "username": "",
